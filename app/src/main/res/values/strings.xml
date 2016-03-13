@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sales Tracker</string>
+    <string name="title">Sales Tracker</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Stock</string>
+    <string name="title_section3">Route</string>
+    <string name="title_section4">Visit Activity</string>
+    <string name="title_section5">Map</string>
+    <string name="title_section6">Sales Monitor</string>
+    <string name="title_section7">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="biggerThanZero">Please enter a quantity of 0 or higher</string>
+    <string name="numericOnly">Please enter a numeric quantity</string>
+    <string name="currentCart">Currently in Cart:</string>
+    <string name="orderTitle">Taking Order</string>
+    <string name="username">username</string>
+    <string name="clientname">Nama Client</string>
+    <string name="address">Alamat</string>
+    <string name="creditnote">Kredit Note</string>
+    <string name="next">Send Order</string>
+
+    <string name="client1">Shop 1</string>
+    <string name="client2">Shop 2</string>
+    <string name="client3">Shop 3</string>
+    <string name="selectClient">Please select client</string>
+    <string name="product">Product</string>
+    <string name="add">Add</string>
+    <string name="ClientInfoTitle">Client Info</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_chart">ChartActivity</string>
+
+
+    <string name="local_service_started">GPSLoggerService is running</string>
+    <string name="local_service_stopped">GPSLoggerService has stopped</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="service_name">GPSLoggerService</string>
+    <string name="Export">Export KML to SD Card</string>
+    <string name="Show">Show List</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_viewMap">View Map</string>
+    <string name="barcode">Scan Barcode</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it. </string>
+    <string name="Reset">Reset</string>
+    <string name="total">Total</string>
+    <string name="overCredit">Your order is over the limit</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextViewCustomerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:id="@+id/TextViewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:id="@+id/TextViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:id="@+id/TextViewLimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:id="@+id/TextViewVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/ButtonScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Scan Barcode"
+        android:layout_below="@+id/LinearLayoutHeader"/>
+    <Button
+        android:id="@+id/ButtonViewMap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="View Map 1"
+        android:layout_below="@+id/ButtonScan"/>
+    <Button
+        android:id="@+id/ButtonViewMap2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="View Map 2"
+        android:layout_below="@+id/ButtonViewMap1"/>
+    <Button
+        android:id="@+id/ButtonOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Order"
+        android:layout_below="@+id/ButtonViewMap2"/>
+</RelativeLayout>

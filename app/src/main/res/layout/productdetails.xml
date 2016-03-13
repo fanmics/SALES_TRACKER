@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ImageViewProduct"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dip"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/deadoralive"></ImageView>-->
+
+    <TextView
+        android:id="@+id/TextViewProductTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="26dip" />
+
+    <TextView
+        android:id="@+id/TextViewProductDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Product description"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/TextViewPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/TextViewStock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity:"
+            android:textColor="#000000"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:inputType="number"
+            android:paddingRight="15dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/ButtonAddToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Add"></Button>
+    </LinearLayout>
+</LinearLayout>

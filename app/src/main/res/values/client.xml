@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clients">
+        <item>@string/selectClient</item>
+        <item>@string/client1</item>
+        <item>@string/client2</item>
+        <item>@string/client3</item>
+    </string-array>
+</resources>

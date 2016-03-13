@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:id="@+id/scorder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:text="@string/orderTitle"
+                android:textAlignment="center"
+                android:textColor="#0193CF"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textViewClients"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:text="@string/ClientInfoTitle"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/wallet_holo_blue_light"
+                android:entries="@array/clients"
+                android:textSize="20dp"></Spinner>
+
+
+            <EditText
+                android:id="@+id/clientname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/clientname"
+                android:imeActionId="@+id/clientname"
+                android:imeActionLabel="@string/clientname"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:imeActionId="@+id/address"
+                android:imeActionLabel="@string/address"
+                android:inputType="textMultiLine"
+                android:maxLines="3" />
+
+            <EditText
+                android:id="@+id/creditnote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/creditnote"
+                android:imeActionId="@+id/creditnote"
+                android:imeActionLabel="@string/creditnote"
+                android:inputType="textMultiLine"
+                android:maxLines="3" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewOrderProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview"
+                    android:layout_weight="1"
+                    android:text="@string/product"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btnAddProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <ListView
+                    android:id="@+id/ListViewOrder"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff"
+                    android:cacheColorHint="#ffffff"
+                    android:clickable="true"></ListView>
+            <!--</LinearLayout>-->
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:layout_weight="1"
+                android:text="@string/total"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textViewLimitMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview"
+                android:layout_weight="1"
+                android:textColor="#F00"
+                android:text=""
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/btnnext"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/next"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

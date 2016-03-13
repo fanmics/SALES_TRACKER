@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.irfan.sales.MainActivity$PlaceholderFragment">
+<TableLayout
+    android:id="@+id/gridActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/title_activity" />
+
+    <TextView android:id="@+id/section_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_gravity="fill"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/start"
+        android:layout_marginRight="20dp"
+        android:layout_weight=".5"/>
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:layout_gravity="fill"
+            android:layout_weight=".5"/>
+    </TableRow>
+</TableLayout>
+
+    <Button
+        android:id="@+id/buttonViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:text="@string/title_viewMap"
+        android:layout_below="@+id/gridActivity"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:text="@string/title_section2"
+        android:layout_below="@+id/buttonViewMap"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:text="@string/title_section3"
+        android:layout_below="@+id/button1"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:text="@string/title_section4"
+        android:layout_below="@+id/button2"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@android:drawable/btn_star_big_on"-->
+        <!--android:text="@string/title_section5"-->
+        <!--android:layout_below="@+id/button3"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@android:drawable/btn_star_big_on"-->
+        <!--android:text="@string/title_section6"-->
+        <!--android:layout_below="@+id/button4"/>-->
+
+
+
+</RelativeLayout>
